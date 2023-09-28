@@ -1,4 +1,43 @@
 td, th {
-	border: 1px solid;
+	border: 3px solid white;
+  color:white;
+  font-style: italic;
   }
-  
+th{
+  font-size: larger;
+}
+h1{
+  font-family: 'Pacifico', cursive;
+  font-style: italic;
+  font-weight: bold;
+  color:azure;
+  }
+tr{
+  font-family: 'Gochi Hand', cursive;
+  font-size:30px;
+  }
+.planet_img{
+  width:200px;
+  height:200px;
+  }
+#planets{
+  margin-left:auto;
+  margin-right:auto;
+  }
+.td_title{
+  text-align: center;
+  }
+body{
+  background-color: #1c222b;
+  }
+table{
+  border-collapse:collapse;
+  }
+td:not(.td_title){
+  font-family: 'Michroma', sans-serif;
+  font-size:15px;
+  font-style:normal;
+  }
+#planets_name{
+    background-color: #3c4654;
+  }
