@@ -9,7 +9,7 @@ th{
 h1{
   font-family: 'Pacifico', cursive;
   font-style: italic;
-  font-weight: bold;
+  text-align: center;
   color:azure;
   }
 tr{
@@ -32,12 +32,25 @@ body{
   }
 table{
   border-collapse:collapse;
+  text-align: center;
   }
 td:not(.td_title){
   font-family: 'Michroma', sans-serif;
   font-size:15px;
   font-style:normal;
   }
-#planets_name{
-    background-color: #3c4654;
-  }
+th:nth-child(1), td:nth-child(1){
+  background-color: #232c38;
+}
+th:nth-child(2), td:nth-child(2){
+  background-color: #38414f;
+}
+th:nth-child(3), td:nth-child(3){
+  background-color: #453d10;
+}
+th:nth-child(4), td:nth-child(4){
+  background-color: #12305e;
+}
+th:nth-child(5), td:nth-child(5){
+  background-color: #323232;
+}
